@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+.card-container{
+    /* background-color: linear-gradient(
+        right top,#2d0036,#4f015b,#730283,#9a02ac
+    ); */
+    background-color:#9a02ac;
+    padding: 25vh;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: -1vh;
+
+}
+h3{
+    margin: 10px 0;
+}
+h6{
+    margin: 5px 0;
+}
+
+p{
+    font-size: 14px;
+    line-height: 21px;
+   
+    margin: 0%;
+    margin-bottom: 1rem;
+}
+
+.box{
+    background-color: #231e39;
+    padding: 4vh;
+    border-radius: 25px;
+    box-shadow: 10px 10px 15px rgba(0,0,0, 0.35);
+    color: #b3b8cd;
+    position: relative;
+    width: 350px;
+    max-width: 100%;
+    text-align: center;
+    margin:20px 0;
+    padding-bottom: 30px;
+
+}
+.pro{
+    color: #231e39;
+    background-color: #febb0b;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 7px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+
+}
+
+.tick{
+    color: #231e39;
+    background-color: #febb0b;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 5px;
+    top: 30px;
+    left: 30px;
+    margin-left: .3rem;
+}
+
+button{
+    background-color: #c400d7;
+    border: 1px solid #c400d7;
+     color: #fff;
+     font-weight: 500;
+     padding: 10px 25px;
+     border-radius: 1rem;
+     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.35);
+
+}
+
+.skills{
+    background-color: #1f1a36;
+    text-align: left;
+    padding: 15px;
+    margin-top: 30px;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    border: 1px solid #2d2747;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0px 7px 7px 0px;
+    padding: 7px;
+
+}
+.msg{
+    position: absolute;
+    top: -30%;
+    margin-left: 1px;
+    margin-right: 15px;
+    background-color: #1f1a36;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 15px rgba(0,0, 0, 0.35);
+}
+.icon{
+    border-radius: 1rem;
+
+}
